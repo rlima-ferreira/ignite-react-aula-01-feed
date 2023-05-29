@@ -1,0 +1,39 @@
+:root {
+  --white: #fff;
+  --gray-100: #e1e1e6; /* (text-titles) */
+  --gray-200: #c4c4cc; /* (text) */
+  --gray-300: #8d8d99; /* (text-apoio) */
+  --gray-400: #7c7c8a; /* (placeholder) */
+  --gray-500: #323238; /* (divider) */
+  --gray-600: #202024; /* (cards) */
+  --gray-700: #121214; /* (background) */
+  --green-light: #00b37e;
+  --green: #00875f;
+  --red-danger: #f75a68;
+}
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--green);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--gray-700);
+  color: var(--gray-200);
+  -webkit-font-smoothing: antialised;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
